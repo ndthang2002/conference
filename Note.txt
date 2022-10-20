@@ -1,0 +1,20 @@
+   
+   code loai bo tomcat
+     <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            
+            <exclusions>
+              <exclusion>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-tomcat</artifactId>
+              </exclusion>
+            </exclusions>
+        </dependency>
+        
+    thay the tomcat bang jetty
+     <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-jetty</artifactId>
+        </dependency>
+    

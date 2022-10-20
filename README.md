@@ -22,3 +22,8 @@
  factoryBean : trien khai ma tinh
  
 ```
+
+```
+@Entity (name ..) tu dong anh xa voi table trong database
+
+```
