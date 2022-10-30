@@ -17,4 +17,5 @@
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-starter-jetty</artifactId>
         </dependency>
-    
+    thay doi port
+    server.port=5000

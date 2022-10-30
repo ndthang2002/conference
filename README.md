@@ -11,7 +11,7 @@
 ```
   @Configuration :bao hieu rang class do se duoc su dung de cau hinh;
   @Bean : dinh nghia do la 1 bean
-  - Singleton : gioi han so lan tao doi tuong , chi tao 1 ;
+
   @component :  chuc nang giong nhu @bean , de bieu thi 1 class la mot bean 
   @service bieu thi do la lop phu thuoc co chuc nang dich vu
   @repository : bieu thi do la lop phu thuoc co chuc nang kho luu tru (day la class thuc hien cac chuc nang crud,.vv.. )
@@ -20,10 +20,17 @@
 
 ```
  factoryBean : trien khai ma tinh
- 
+   - Singleton : gioi han so lan tao doi tuong , chi tao 1 ;
+   builder 
 ```
 
 ```
 @Entity (name ..) tu dong anh xa voi table trong database
+@JsonIgnore được sử dụng ở cấp trường để đánh dấu các thuộc tính hoặc danh sách bị bỏ qua
 
+@JsonIgnoreProperties được sử dụng ở cấp độ lớp để đánh dấu 1 thuộc tính hoặc danh sach các thuộc tính bị bỏ qua 
+```
+
+```
+ @RestControllerAdvice : annotation này sẽ gắn trên class có tác dụng xen vào quá trình xử lý của các restController .thường nó được sử dụng với @ỄcptionHandler 
 ```

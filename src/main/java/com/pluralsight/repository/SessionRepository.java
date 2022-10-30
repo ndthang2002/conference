@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.pluralsight.model.Session;
 import com.pluralsight.model.Speaker;
-
+//
 @Repository
 public interface SessionRepository extends JpaRepository<Session, Long>{
 
